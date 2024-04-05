@@ -4,30 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akademynashr</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
+  <header class="site-header">
 
 
     <img src="img/logo.svg" alt="python book" width="227" height="60">
 
     <ul>
-      <li><a href="#">Bosh sahifa</a></li>
-      <li><a href="#">Kitoblar</a></li>
-      <li><a href="#">Aksiyalar</a></li>
-      <li><a href="#">Kontaktlar</a></li>
-      <li><a href="#">Ro'yxatdan o'tish</a></li>
+      <li><a  class="sitenav-link" href="#">Bosh sahifa</a></li>
+      <li><a  class="sitenav-link" href="#">Kitoblar</a></li>
+      <li><a  class="sitenav-link" href="#">Aksiyalar</a></li>
+      <li><a  class="sitenav-link" href="#">Kontaktlar</a></li>
+      <li><a  class="main-link" href="#">Ro'yxatdan o'tish</a></li>
     </ul>
 
   </header>
 
   <main>
-    <H2>Pyhtonda dasturalsh asoslari</H2>
-    <p>Dasturlash asoslariga oid o'zbek tilidagi ilk eng mukammal qo'llanma Kitobning har bir bo'limi uchun maxsus video darslar yozilgan bo'lib ylarga kitobda ko'rsatilganidek QR kod orqali o'tish mumkin.</p>
-    <a href="#">Buyurtma berish</a>
-
-    <img src="img/python-book.svg" alt="python book">
-
+    <section class="hero">
+    <div class="hero-content">
+    <hr class="hero-line">
+    <h2 class="hero-heading">Pyhtonda dasturalsh asoslari</h2>
+    <p class="hero-text">Dasturlash asoslariga oid o'zbek tilidagi ilk eng mukammal qo'llanma Kitobning har bir bo'limi uchun maxsus video darslar yozilgan bo'lib ylarga kitobda ko'rsatilganidek QR kod orqali o'tish mumkin.</p>
+    <a class="main-link" href="#">Buyurtma berish</a>
+  </div>
+    <img class="hero-img" src="img/python-book.svg" alt="python book">
+  </section>
     <section>
       <h2>Nega aynan Akademnashr?</h2>
       <ul>
@@ -57,7 +61,7 @@
       <h2>Bolalar kitoblari uchun ajoyib aksiya!</h2>
       <p>Ertaklar, sherlar, sarguzasht asarlar, fikrlashni o'stirish uchun turli mashq q'llanmalari va komikslar.</p>
       <p>aksiyadagi eng katta to'plam <strong>50 ta kitob</strong>ni <strong>350 ming</strong> so'mga (aslida 383 ming so'm) sotib olishingiz mumkin.</p>
-      <a href="#">Buyurtma berish</a>
+      <a class="main-link" href="#">Buyurtma berish</a>
     </section>
   </main>
   <img src="img/sale-img.svg" alt="books">

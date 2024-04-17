@@ -5,6 +5,11 @@ font-family: "Roboto", "Arial", sans-serif;
 letter-spacing: 0.5;
 }
 
+*:focus {
+outline: 2px #ff7500 solid ;
+outline-offset: 3px;
+}
+
 /* Site-header */
 
 .site-header {
